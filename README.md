@@ -131,6 +131,9 @@ flipkart_db.sql contains 19 business queries, including:
 | CRUD Operations | Create, read, update, and delete products in MySQL |
 
 Sidebar filters: category, sub-category, brand, seller, stock status, rating, price range, and discount range.
+
+<img width="1250" height="730" alt="image" src="https://github.com/user-attachments/assets/86fbfb16-7a9e-4ca2-aa1e-a2764d98e887" />
+
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Key Insights 📊
