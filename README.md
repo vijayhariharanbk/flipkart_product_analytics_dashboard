@@ -23,10 +23,10 @@ ________________________________________________________________________________
 
 Area	               | Tools                                                        |
 |--------------------|--------------------------------------------------------------|
-Data cleaning & EDA	 | Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook |
-Database	           | MySQL, SQLAlchemy, PyMySQL                                   |
-Web app	             | Streamlit, streamlit-option-menu, Plotly                     |
-Visualisation        |	Power BI                                                    |
+|Data cleaning & EDA	 | Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook |
+|Database	           | MySQL, SQLAlchemy, PyMySQL                                   |
+|Web app	             | Streamlit, streamlit-option-menu, Plotly                     |
+|Visualisation        |	Power BI                                                    |
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -55,9 +55,9 @@ ________________________________________________________________________________
 
 | File	| Format	| Records	|	Contents |
 |-------|---------|---------|----------|
-flipkart_category_catalog.json   |	JSON (category → sub-category → products) |33,333 |	Prices, discounts, ratings, reviews, product URL|
-flipkart_seller_performance.json |	JSON (seller → products)	                |33,333 | Seller, rating, reviews, stock status           |
-flipkart_other_products.csv      |	CSV	                                      |33,334	|	Full product details including seller and stock status                |
+|flipkart_category_catalog.json   |	JSON (category → sub-category → products) |33,333 |	Prices, discounts, ratings, reviews, product URL|
+|flipkart_seller_performance.json |	JSON (seller → products)	                |33,333 | Seller, rating, reviews, stock status           |
+|flipkart_other_products.csv      |	CSV	                                      |33,334	|	Full product details including seller and stock status                |
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
@@ -160,13 +160,13 @@ cd flipkart_product_analytics_dashboard
 ```
 ### 2. Install the Python libraries
 ```
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 ```
 ### 3. Configure the database
 
 Create the database in MySQL:
 ```sql
-CREATE DATABASE flipkart_db;
+`CREATE DATABASE flipkart_db;`
 ```
 Then set your MySQL username and password in two places:
 
@@ -211,3 +211,5 @@ ________________________________________________________________________________
 | ModuleNotFoundError            | Run pip install -r requirements.txt          |
 | SQLAlchemy ImportError mentioning a blocked file (Windows) |	Reinstall SQLAlchemy without compiled extensions: $env:DISABLE_SQLALCHEMY_CEXT="1" then pip install --force-reinstall --no-deps --no-binary sqlalchemy sqlalchemy
 
+## Author
+### Vijay
